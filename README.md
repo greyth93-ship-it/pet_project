@@ -4,7 +4,7 @@
 
 - 기간: 2026.08 · 4인 팀 프로젝트
 - 구성: `pet_backend`(Spring Boot + JPA) · `pet_frontend`(React + Vite, 360px 모바일) · `pet_model`(FastAPI, 피부 진단 ML)
-- **이 README는 구영주(백엔드 개발자)의 담당 범위를 기준으로 작성했습니다.** 팀원 담당 영역은 아래 "팀 구성"에 표시했습니다.
+- **이 README는 본인(백엔드 개발자)의 담당 범위를 기준으로 작성했습니다.** 팀원 담당 영역은 아래 "팀 구성"에 표시했습니다.
 
 ## 화면
 
@@ -31,7 +31,7 @@
 | 외부 API | 카카오 로컬 API(장소), 기상청 단기예보 조회서비스(공공데이터포털) |
 | 배포 | AWS EC2 · HTTPS(DuckDNS) · 단일 오리진 리버스 프록시 · GitHub Actions |
 
-## 내가 만든 것 (구영주)
+## 내가 만든 것
 
 ### 백엔드 `pet_backend/src/main/java/com/pet/backend`
 
@@ -95,7 +95,7 @@ cd pet_model && uvicorn app.main:app --reload --port 8000
 
 | 영역 | 담당 |
 |---|---|
-| AI 챗봇·지도·산책·MCP 서버·배포·QA | **구영주** |
+| AI 챗봇·지도·산책·MCP 서버·배포·QA | **본인** |
 | 로그인·JWT·CORS 등 인증/보안 | 팀원 |
 | 생체정보 수집·대시보드·오픈채팅·숏츠 | 팀원 |
 | 알림 모델·리포트·피부 진단 ML(pet_model) | 팀원 |
