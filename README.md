@@ -1,5 +1,15 @@
 # 댕댕댕 (Pet Care) — 반려견 산책·장소 추천 서비스
 
+> [!IMPORTANT]
+> ### 📌 포트폴리오 바로가기
+> 두 프로젝트(체육관 SaaS · 반려견 케어)의 담당 기능 전체를 실제 화면과 함께 정리한 문서입니다.
+>
+> **[🔗 브라우저에서 바로 보기](https://htmlpreview.github.io/?https://github.com/greyth93-ship-it/pet_project/blob/sub/docs/portfolio.html)** · **[⬇ portfolio.html 내려받기](docs/portfolio.html)** (파일 페이지 우측 상단 Download raw file → 브라우저로 열기)
+
+---
+
+아래는 프로젝트 상세(화면 · 아키텍처 · 구현 내용 · 실행 방법)입니다.
+
 반려견 생체정보를 분석해 이상 징후를 알리고, **지도·산책·AI 챗봇**으로 반려견 케어 동선을 제공하는 모바일 웹 서비스입니다.
 
 - 기간: 2026.08 · 4인 팀 프로젝트
@@ -102,6 +112,5 @@ cd pet_model && uvicorn app.main:app --reload --port 8000
 
 ## 참고
 
-- **전체 포트폴리오**: [docs/portfolio.html](docs/portfolio.html) — 두 프로젝트의 담당 기능을 실제 화면과 함께 정리한 단일 HTML(다운로드 후 브라우저에서 열기)
 - 기획·QA 문서(`CLAUDE.md`, `docs/qa/*.md`)는 `.gitignore`의 `*.md` 규칙으로 저장소에 포함되지 않습니다(로컬 관리).
 - 배포 서버는 팀 프로젝트 종료 후 정리했습니다. 데모는 로컬 실행으로 재현합니다.
