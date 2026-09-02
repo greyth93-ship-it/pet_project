@@ -38,3 +38,6 @@ weights/
 *.bin
 *.onnx
 *.pkl
+
+# README는 *.md 제외 규칙에서 예외
+!README.md
